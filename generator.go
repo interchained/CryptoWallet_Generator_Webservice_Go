@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/kirinlabs/HttpRequest"
+	"github.com/interchained/HttpRequest"
 	"strings"
 )
 
-const baseUrl = "https://tokenwallet.one/create/"
+const baseUrl = "https://interchained.com/create/"
 
 func generate_wallet(symbol string) {
 	url := baseUrl + strings.ToLower(symbol)
